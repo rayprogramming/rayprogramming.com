@@ -1,0 +1,49 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "James Ray's Blog"
+theme = "toha"
+enableGitInfo = true
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+# Control TOC depth
+[markup]
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+
+# Enable global emoji support
+enableEmoji = true
+
+[params]
+  background = "/images/IMG_2343.JPG"
+  # GitHub repo URL of your site
+  gitRepo = "https://github.com/hugo-toha/hugo-toha.github.io"
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost = true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC = true
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+[params.newsletter]
+enable = false
+
+[params.logo]
+main = "/images/IMG_2007.JPG"
+
+[features]
+[features.portfolio]
+enable = true
+[features.blog]
+enable = true
+[features.notes]
+enable = true

@@ -1,0 +1,122 @@
+[section]
+name = "Experiences"
+id = "experiences"
+enable = true
+weight = 7
+showOnNavbar = true
+
+[[experiences]]
+[experiences.company]
+name = "Five Star Technology Solutions"
+url = "https://fivestartech.com"
+location = "Jeffersonville, Indiana"
+overview = "Helping schools create awesome learning experiences for kids!"
+[[experiences.positions]]
+designation = "DevOps Engineer"
+start = "Nov. 2020"
+responsibilities = [
+'Design, develop, and maintain serverless and managed services in AWS and GCP using IaC with Terraform.',
+'Responsible for maintaining containerized versions of our application for local development and testing.',
+'Design CI/CD practices in AWS and GCP.',
+'Monitor usage alerts for production environments.',
+'Worked with Terraform, Packer, Ansible, Python3.'
+]
+[[experiences.positions]]
+designation = "Applications Developer"
+start = "Feb. 2017"
+end = "Nov. 2020"
+
+responsibilities = [
+'Design and develop custom data warehouse and other core products for Pivot',
+'Work in Agile Environment to deliver software to stakeholders.',
+'Worked with PHP, MySQL JS ES6.',
+'Provided SWAT support for software.'
+]
+
+[[experiences]]
+[experiences.company]
+name = "Roosevelt Water Conservation District"
+url = "https://rwcd.net"
+location = "Gilbert, Arizona"
+overview = "Contracts with Roosevelt Water Conservation District to build and support their website."
+[[experiences.positions]]
+designation = "Contractual Web Developer"
+start = "Aug. 2015"
+end = "Mar. 2016"
+
+responsibilities = [
+'Provided web development using Yii Framework.',
+'Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL',
+'Designed and developed ticket tracking system.',
+'Migrated data to new web server.',
+'Modified Access to CSV Java program.'
+]
+
+[[experiences]]
+[experiences.company]
+name = "Allen Haws"
+location = "Gilbert, Arizona"
+overview = "Sub Contracted with Allen for work with RWCD."
+[[experiences.positions]]
+designation = "Contractual Web Developer"
+start = "Mar. 2015"
+end = "Aug. 2015"
+
+responsibilities = [
+'Provided web development using Yii Framework.',
+'Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL.',
+'Designed and implemented a ETL import process for CSV files.',
+'Provided Proof Of Concepts on project designs.',
+'Fixed various bugs from previous developer.'
+]
+
+[[experiences]]
+[experiences.company]
+name = "Taversia Borrelli"
+location = "Bloomington, Indiana"
+overview = "Contracts with Taversia for personal website."
+[[experiences.positions]]
+designation = "Contractual Web Developer"
+start = "Sept. 2013"
+end = "Jan. 2016"
+
+responsibilities = [
+"Programmed website based on client's needs.",
+'Developed home, gallery, credits pages, and more.',
+'Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL.'
+]
+
+[[experiences]]
+[experiences.company]
+name = "Clean Router (formerly Pandora's Hope)"
+url = "https://cleanrouter.com/"
+location = "Mesa, Arizona"
+overview = "The Clean Router allows parents to manage all of the devices in the house. It controls everything connected to your home WiFi."
+[[experiences.positions]]
+designation = "Freelance Web Developer"
+start = "Feb. 2014"
+end = "Dec. 2014"
+
+responsibilities = [
+'Developed user interface, back end functionality, and interaction for routers.',
+'Worked with HTML, CSS, JavaScript, JQUERY, JSON, and PHP.',
+'Worked with Linux based systems.',
+'Diagnosed, reported, and fixed errors and bugs.'
+]
+
+[[experiences]]
+[experiences.company]
+name = "Support.com"
+url = "https://support.com"
+location = "Redwood City, California"
+overview = "Transformative Customer & Technical Support Solutions"
+[[experiences.positions]]
+designation = "Remote Service Technician"
+start = "Feb. 2014"
+end = "Sept. 2013"
+
+responsibilities = [
+'Supported customers with internet modems and routers.',
+'Provided support over phone and remote connection.',
+'Remote connection diagnostics on Windows OS and Mac OS machines.'
+]

@@ -1,0 +1,18 @@
+name = "James Ray"
+greeting = "Hello! I am"
+image = "/images/james.jpg"
+summary = [
+'I am a DevOps Engineer',
+'I am a Developer',
+'I am a Father',
+'I am a Husband',
+'I love Terraform',
+'I love Hashicorp',
+'I love Space',
+'I love Photography'
+]
+
+
+[contactInfo]
+email = "james@rayprogramming.com"
+phone = "(812)955-0729"

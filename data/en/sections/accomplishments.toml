@@ -1,0 +1,24 @@
+[section]
+name = "Accomplishments"
+id = "accomplishments"
+enable = true
+weight = 5
+showOnNavbar = true
+
+[[accomplishments]]
+name = "Unified Modeling Language (UML): Complete Guide & Examples"
+timeline = "April 27, 2018"
+courseOverview = "An online course to Learn how to read UML diagrams, interpret every UML notation and build them using practical examples."
+certificateURL = "http://ude.my/UC-53OV94EX"
+[accomplishments.organization]
+name = "Udemy"
+url = "https://udemy.com"
+
+[[accomplishments]]
+name = "Automate the Boring Stuff with Python Programming"
+timeline = "May 21, 2020"
+courseOverview = "A practical programming course for office workers, academics, and administrators who want to improve their productivity."
+certificateURL = "https://ude.my/UC-68362172-e963-47ee-9cad-5a858829322d/"
+[accomplishments.organization]
+name = "Udemy"
+url = "https://udemy.com"

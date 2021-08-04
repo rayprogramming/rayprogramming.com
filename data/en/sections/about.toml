@@ -1,0 +1,85 @@
+designation = "DevOps Engineer"
+summary = 'Starting as a self taught programmer I have pushed myself daily and am not passionate about DevOps Ideals such as CI/CD, IaC, and automation. I love programming and solving any issue that I see.'
+resume = "files/resume.pdf"
+
+[section]
+name = "About"
+id = "about"
+enable = true
+weight = 1
+showOnNavbar = true
+template = "sections/about.html"
+background = "bg-white"
+
+[company]
+name = "Five Star Technology Solutions"
+url = "https://fivestartech.com"
+
+[[socialLinks]]
+name = "Email"
+icon = "fas fa-envelope"
+url = "mail:james@rayprogramming.com"
+[[socialLinks]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://www.github.com/rihoj"
+[[socialLinks]]
+name = "Stackoverflow"
+icon = "fab fa-stack-overflow"
+url = "https://stackoverflow.com/users/2264016/james-ray"
+[[socialLinks]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/james-ray-00a640b4/"
+
+[[badges]]
+type = "certification"
+name = "Google Cloud Certified Professional Cloud Architect"
+url = "https://www.credential.net/771d7c29-c363-4214-b9f0-65ef63183a3d"
+badge = "https://s3.amazonaws.com/accredible-api-badge/1521044380812.png"
+
+[[badges]]
+type = "soft-skill-indicator"
+name = "AWS"
+percentage = 75
+color = "orange"
+[[badges]]
+type = "soft-skill-indicator"
+name = "GCP"
+percentage = 70
+color = "orange"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Terraform"
+percentage = 100
+color = "blue"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Packer"
+percentage = 75
+color = "blue"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Ansible"
+percentage = 50
+color = "blue"
+[[badges]]
+type = "soft-skill-indicator"
+name = "PHP"
+percentage = 95
+color = "yellow"
+[[badges]]
+type = "soft-skill-indicator"
+name = "MySQL"
+percentage = 85
+color = "yellow"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Python"
+percentage = 75
+color = "yellow"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Javascript"
+percentage = 55
+color = "yellow"

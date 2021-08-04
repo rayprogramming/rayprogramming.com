@@ -1,0 +1,38 @@
+[section]
+name = "Projects"
+id = "projects"
+enable = true
+weight = 6
+showOnNavbar = true
+
+[[buttons]]
+name = "All"
+filter = "all"
+[[buttons]]
+name = "Professional"
+filter = "professional"
+[[buttons]]
+name = "Hobby"
+filter = "hobby"
+
+[[projects]]
+name = "TFLint ruleset"
+role = "Contributor"
+timeline = "Jul. 2021"
+repo = "https://github.com/terraform-linters/tflint-ruleset-aws"
+summary = "TFLint ruleset plugin for Terraform AWS Provider"
+tags = ["professional", "cloud", "aws", "terraform"]
+[[projects]]
+name = "Docker Full Stack"
+role = "Owner"
+timeline = "Nov. 2018"
+repo = "https://github.com/Rihoj/docker-full-stack"
+summary = "Full Web Stack W\\ Docker"
+tags = ["hobby", "cloud", "aws", "docker"]
+[[projects]]
+name = "Laravel PHP Docker"
+role = "Owner"
+timeline = "Nov. 2018"
+repo = "https://github.com/rayprogramming/laravel-php-docker"
+summary = "A preinstalled laravel docker image"
+tags = ["professional", "cloud", "docker"]

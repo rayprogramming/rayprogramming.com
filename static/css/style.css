@@ -1,0 +1,67 @@
+nav, .bg-white {
+  background-color: #151015 !important;
+}
+
+.final-navbar .navbar-brand {
+  color: #6c7d91;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #050010 !important;
+}
+
+.bg-white .p-1 {
+  color: #bbbbbb !important;
+}
+
+.bg-dimmed {
+  background-color: #252027;
+}
+
+.accomplishments-section .card {
+  background: #001030;
+  color: #CCCCCC;
+}
+
+.accomplishments-section .card .card-footer {
+  background: #102040;
+  padding-top: 10px
+}
+
+.projects-section .card {
+  background: #001030;
+  color: #CCCCCC;
+}
+
+.projects-section .card .card-header {
+  background: #001030;
+}
+.projects-section .card .card-footer {
+  background: #102040;
+  padding-top: 10px
+}
+
+.skills-section .card {
+    background: #242930;
+}
+.skills-section .card .card-head {
+    background: #141920;
+}
+
+#accomplishments>h1 {
+  color: #CCCCCC !important;
+}
+
+p {
+  color: #bbbbbb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4c6de1;
+}
+
+.experiences-section ul > li {
+    margin-left: 0;
+    color: #8c98a8;
+}

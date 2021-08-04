@@ -1,0 +1,23 @@
+[section]
+name = "Skills"
+id = "skills"
+enable = true
+weight = 2
+showOnNavBar = true
+
+[[skills]]
+name = "Docker"
+logo = "/images/sections/skills/docker.svg"
+summary = "Write most of the programs as dockerized container."
+url = "https://www.docker.com/"
+
+[[skills]]
+name = "Git"
+logo = "/images/sections/skills/git.png"
+summary = "Experienced with git-based development. Mostly, use Bitbucket. Also, have experience in working with GitHub."
+url = "https://git-scm.com/"
+
+[[skills]]
+name = "Linux"
+logo = "/images/sections/skills/linux.png"
+summary = "Using as the main operating system. Capable of writing bash/shell scripts."
