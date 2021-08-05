@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "James Ray's Blog"
 theme = "toha"
 enableGitInfo = true
+enableEmoji = true
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
@@ -17,14 +18,15 @@ weight = 1
 startLevel = 2
 endLevel = 6
 ordered = false
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
-# Enable global emoji support
-enableEmoji = true
 
 [params]
   background = "/images/IMG_2343.JPG"
   # GitHub repo URL of your site
-  gitRepo = "https://github.com/hugo-toha/hugo-toha.github.io"
+  # gitRepo = "https://github.com/rihoj/rayprogramming"
 
   # specify whether you want to write some blog posts or not
   enableBlogPost = true

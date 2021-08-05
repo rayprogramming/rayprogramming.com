@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Why I blog"
 date: 2021-08-03
 hero: images/james.jpg

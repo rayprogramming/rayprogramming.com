@@ -1,0 +1,119 @@
+// html {
+//     background: #000;
+//     filter: invert(1) hue-rotate(180deg)
+// }
+// html img, .hero-area, #homePageBackgroundImageDivStyled, footer {
+//   filter: invert(1) hue-rotate(180deg)
+// }
+$darkest-grey: #121212;
+$layer-1: lighten($darkest-grey, 2%);
+$layer-2: lighten($layer-1, 2%);
+$layer-3: lighten($layer-2, 2%);
+$layer-4: lighten($layer-3, 2%);
+$base-text: #969696;
+$layer-1-text: lighten($base-text, 3%);
+$layer-2-text: lighten($layer-1-text, 3%);
+$layer-3-text: lighten($layer-2-text, 3%);
+$layer-4-text: lighten($layer-3-text, 3%);
+
+$base-accent: #434b91;
+$layer-1-accent: lighten($base-accent, 5%);
+$layer-2-accent: lighten($layer-1-accent, 5%);
+$layer-3-accent: lighten($layer-2-accent, 5%);
+$layer-4-accent: lighten($layer-3-accent, 5%);
+$layer-1-accent-dark: darken($base-accent, 5%);
+$layer-2-accent-dark: darken($layer-1-accent, 5%);
+$layer-3-accent-dark: darken($layer-2-accent, 5%);
+$layer-4-accent-dark: darken($layer-3-accent, 5%);
+
+p {
+  color: $layer-4-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $layer-3-text;
+}
+
+ul > li {
+  color: $layer-2-text !important;
+}
+
+.bg-dimmed {
+  background-color: $layer-1 !important;
+}
+
+.bg-white {
+  background-color: $layer-2 !important;
+}
+
+.read-area {
+  background-color: $layer-1;
+}
+
+.final-navbar {
+  background-color: $layer-2;
+  color: $layer-2-text;
+  .navbar-brand {
+    color: $layer-2-text;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $layer-2-text;
+      }
+    }
+  }
+}
+.sidebar-holder {
+  box-shadow: 0px 8px 56px rgba($layer-4, 0.16);
+}
+.sidebar, .subtree li:last-child:before {
+  background-color: $layer-2;
+  color: $layer-2-text;
+}
+
+.tree {
+  li {
+    a {
+      color: $layer-3-text;
+    }
+  }
+}
+
+.page-content {
+  background-color: $layer-3;
+  color: $layer-3-text;
+  a {
+    color: $layer-3-accent;
+  }
+  .btn-outline-info  {
+      border-color: $layer-4-text !important;
+      color: $layer-4-text  !important;
+      background-color: $base-accent  !important;
+  }
+}
+
+.toc-section {
+  background-color: $layer-2;
+  color: $layer-2-text;
+  .toc-holder {
+    background-color: $layer-3;
+    color: $layer-3-text;
+    h1, h2, h3, h4, h5, h6 {
+      color: $layer-4-text;
+    }
+    .nav-link {
+      color: $layer-4-accent-dark;
+    }
+  }
+}
+
+footer {
+  background-color: $layer-2 !important;
+}
+@import 'cards.scss';

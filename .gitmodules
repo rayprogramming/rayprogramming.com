@@ -1,6 +1,3 @@
-[submodule "themes/megha"]
-	path = themes/megha
-	url = https://github.com/themefisher/meghna-hugo.git
 [submodule "themes/toha"]
 	path = themes/toha
 	url = https://github.com/hugo-toha/toha.git

@@ -1,0 +1,15 @@
+.card {
+  background-color: $layer-4 !important;
+  color: $layer-4-text;
+  .card-head, .card-header {
+    background: $layer-3 !important;
+    color: $layer-3-text;
+  }
+  .card-text, .card-body p {
+    color: $layer-4-text;
+  }
+  .card-footer {
+    background: $layer-3 !important;
+    padding-top: 10px !important;
+  }
+}
