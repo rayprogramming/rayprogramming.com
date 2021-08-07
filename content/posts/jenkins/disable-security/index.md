@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Disabling Jenkins Security"
 date: 2021-08-05
 description: A quick guide on how to disable Jenkins security when locked out of the UI.
