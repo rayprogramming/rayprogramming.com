@@ -10,6 +10,7 @@ tags: ["jenkins", "security", "SecOps", "DevOps"]
 menu:
   sidebar:
     name: Disabling Jenkins Security
+    parent: jenkins
     identifier: disabling-jenkins-security
     weight: 500
 ---
