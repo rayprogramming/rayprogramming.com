@@ -41,7 +41,7 @@
 {{ define "content" }}
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid photography-card-holder" id="photography-card-holder">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       {{ $photopgraphy := where .RegularPagesRecursive "Layout" "!=" "search" }}
       {{ $paginator := .Paginate $photopgraphy 12 }}
       {{ range $paginator.Pages }}

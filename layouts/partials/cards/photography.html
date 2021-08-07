@@ -1,12 +1,12 @@
-<div class="photography-card">
-  <a href="{{ .RelPermalink | relLangURL }}" class="photography-card-link">
+<div class="post-card">
+  <a href="{{ .RelPermalink | relLangURL }}" class="post-card-link">
     <div class="card">
       <div class="card-head">
         <img class="card-img-top" src='{{ partial "helpers/get-hero.html" . }}' alt="Hero Image">
       </div>
       <div class="card-body">
         <h5 class="card-title">{{ .Title }}</h5>
-        <p class="card-text photography-summary">{{ .Summary }}</p>
+        <p class="card-text post-summary">{{ .Summary }}</p>
       </div>
       <div class="card-footer">
         <span class="float-left">{{ .Date.Format "January 2, 2006" }}</span>
