@@ -20,7 +20,7 @@ endLevel = 6
 ordered = false
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true
+unsafe = false
 
 
 [params]
@@ -41,6 +41,7 @@ enable = false
 
 [params.logo]
 main = "/images/IMG_2007.JPG"
+
 
 [features]
 [features.portfolio]
