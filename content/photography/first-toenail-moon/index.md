@@ -1,7 +1,7 @@
 ---
-draft: true
 title: "My First Toenail Moon"
-date: 2021-08-13
+date: "2021-08-07"
+publishDate: "2021-08-13T12:00:00-04:00"
 description: The first photos I took of the moon.
 hero: images/Moon-Toenail-3.png
 categories:
