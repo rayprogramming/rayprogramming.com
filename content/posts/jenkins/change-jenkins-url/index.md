@@ -2,6 +2,7 @@
 draft: true
 title: "Change Jenkins URL from CLI"
 date: 2021-08-05
+publishDate: "2021-08-11T12:00:00-04:00"
 description: A quick guide on how to disable Jenkins security when locked out of the UI.
 categories:
 - Day in the life
