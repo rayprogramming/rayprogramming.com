@@ -16,8 +16,8 @@ name = "Hobby"
 filter = "hobby"
 
 [[projects]]
-name = "TFLint ruleset"
-role = "Contributor"
+name = "TFLint AWS ruleset"
+role = "Member"
 timeline = "Jul. 2021"
 repo = "https://github.com/terraform-linters/tflint-ruleset-aws"
 summary = "TFLint ruleset plugin for Terraform AWS Provider"
