@@ -26,7 +26,7 @@ unsafe = false
 [params]
   background = "/images/IMG_2343.JPG"
   # GitHub repo URL of your site
-  # gitRepo = "https://github.com/rihoj/rayprogramming"
+  gitRepo = "https://github.com/rihoj/rayprogramming"
 
   # specify whether you want to write some blog posts or not
   enableBlogPost = true
@@ -50,3 +50,9 @@ enable = true
 enable = true
 [features.notes]
 enable = true
+
+[frontmatter]
+date = [":filename","date","publishDate","lastmod"]
+lastmod = [":fileModTime",":git","lastmod","date","publishDate"]
+publishDate = ["publishDate","date"]
+expiryDate = "expiryDate"
