@@ -23,7 +23,7 @@ menu:
 ---
 
 ### This is the way
-This photos that I am sharing with you here are the first shots of the moon I ever took. I do claim them as perfect, but I will claim them as my first. Each photo I share is in hopes that I will strive to do better.
+This photos that I am sharing with you here are the first shots of the moon I ever took. I don't claim them as perfect, but I will claim them as my first. Each photo I share is in hopes that I will strive to do better.
 
 #### Toenail Moons
 I have adopted this term from an amazing astrophysicist, [Dr. Becky Smethurst](http://drbecky.uk.com/). The term is to describe the moon when it is a sliver that resembles a toenail in the sky. I am not sure if she is the originator of this term, but I for sure had not heard it before her. I was introduced to her through youtube, and the way she communicates information is just outstanding!
