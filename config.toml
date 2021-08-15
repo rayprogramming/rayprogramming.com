@@ -21,7 +21,8 @@ ordered = false
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = false
-
+[outputs]
+home = ["HTML","JSON"]
 
 [params]
   background = "/images/IMG_2343.JPG"
