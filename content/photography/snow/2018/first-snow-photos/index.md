@@ -1,7 +1,7 @@
 ---
 title: "My First Snow Photos"
 date: "2021-08-07"
-publishDate: "2021-08-20T12:00:00-04:00"
+publishDate: "2021-08-13T12:00:00-04:00"
 description: The first photos I took of the moon.
 hero: "images/20180321-SnowyPines1.jpg"
 categories:
