@@ -8,8 +8,6 @@ id = "about"
 enable = true
 weight = 1
 showOnNavbar = true
-template = "sections/about.html"
-background = "bg-white"
 
 [company]
 name = "Five Star Technology Solutions"
@@ -61,7 +59,7 @@ color = "blue"
 [[badges]]
 type = "soft-skill-indicator"
 name = "Ansible"
-percentage = 50
+percentage = 60
 color = "blue"
 [[badges]]
 type = "soft-skill-indicator"
