@@ -24,7 +24,4 @@ I knew that Jenkins stored a lot of values in files, but surely it must be in th
 ### Why blog this?
 Honestly, because I needed to rant about my oblivious nature a bit. But, and more importantly, I wanted to have a record to help me remember and collect my thoughts if I ever miss something like this again.
 
-\
-\
-\
-Hero Photo by [Bestami Sarıkaya](https://unsplash.com/@bbestamis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/t/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+{{< link/unsplash-hero userTag="@bbestamis" user="Bestami Sarıkaya" >}}
