@@ -20,14 +20,12 @@ menu:
     weight: 100
 ---
 
-I think today's photography post will be focused on just sharing the images. These were all taken with the following specs. I am not sure what else I had used.
+I think today's photography post will be focused on just sharing the images. These were all taken with the following specs by my wife.
 
-- Camera: [Pixel 3a XL](/notes/cameras)
-- Scope: [Wayne](/notes/telescopes/)
+- Camera: [Charlie](/notes/cameras)
+- Lens: [Canon Zoom EF Lens](/notes/cameras)
 
-I am going to try logging some of these things a bit better, but I need to find a good way to do so while outside. I don't want to take my laptop out there and lose the experience, but I think pen and paper would be even worse.
-
-I am tempted to see about cropping these and editing them further, but I am not sure if it is worth it at this time.
+Next week I am going to work on presenting some of the photos I have taken myself. I am also going to work on logging some of these things a bit better when I take the photos, but I need to find a good way to do so while outside. I don't want to take my laptop out there and lose the experience, but I think pen and paper would be even worse.
 
 {{< img src="images/IMG_1855.jpg" align="center" >}}
 

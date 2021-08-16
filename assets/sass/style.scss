@@ -112,6 +112,11 @@ ul > li {
     }
   }
 }
+.note-title {
+  span {
+    background: $layer-1;
+  }
+}
 
 footer {
   background-color: $layer-2 !important;
