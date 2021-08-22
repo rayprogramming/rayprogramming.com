@@ -13,6 +13,15 @@
 
     <!-- import common headers -->
     {{- partial "header.html" . -}}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsID }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ .Site.Params.GoogleAnalyticsID }}');
+    </script>
     {{- partial "opengraph.html" . -}}
 
     <!-- import index page specific headers -->

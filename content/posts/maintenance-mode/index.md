@@ -2,7 +2,6 @@
 title: "Maintenance Mode"
 date: 2021-08-15T13:23:11-04:00
 publishDate: 2021-08-18T12:00:00-04:00
-draft: true
 description: "How I handle maintenance mode"
 categories:
 - Day in the life

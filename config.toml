@@ -4,6 +4,7 @@ title = "James Ray's Blog"
 theme = "toha"
 enableGitInfo = true
 enableEmoji = true
+googleAnalytics = "G-ZZ2207Q2P0"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
