@@ -39,7 +39,7 @@ home = ["HTML","JSON"]
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
 [params.newsletter]
-enable = false
+enable = true
 
 [params.logo]
 main = "/images/IMG_2007.JPG"
