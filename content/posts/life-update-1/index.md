@@ -2,7 +2,6 @@
 title: "Life Update 2021"
 date: 2021-09-29T20:44:06-04:00
 publishDate: 2021-09-29T20:44:06-04:00
-draft: true
 description: "A general life update about what is going on with me."
 categories:
 - Life
