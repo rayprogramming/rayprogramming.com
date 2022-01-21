@@ -1,8 +1,7 @@
 ---
 title: "Life Update Jan 2022"
 date: 2022-01-08T22:22:47-05:00
-publishDate: 2022-01-08T22:22:47-05:00
-draft: true
+publishDate: 2022-01-19T22:22:47-05:00
 description: "General Update for the beginning of the year"
 categories:
 - Life
