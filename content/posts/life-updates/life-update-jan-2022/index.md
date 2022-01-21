@@ -16,7 +16,7 @@ menu:
 ---
 
 ## Where we left off
-Oh boy, it's been a hot minute since I have been here. I didn't feel very comfortable enough to talk about my life, but I will go into that more as we continue down the line. I have had some much going on between my new job, my mental health, trying to find proper stress relief, and so much more. I was/am not handling it the best I should be, but hopefully that changes. On some quick brighter notes, I can solve a 3x3 rubics cube and a megaminx. The 3x3 has become my fidget toy as it keeps my brian engaged just enough to focus on a meeting or thought processes without being so overly complicated it distracts. That was not how it was initially. To begin with, I had to focus on the patterns, but with the amount I practiced that is less common now.
+Oh boy, it's been a hot minute since I have been here. I didn't feel very comfortable enough to talk about my life, but I will go into that more as we continue down the line. I have had some much going on between my new job, my mental health, trying to find proper stress relief, and so much more. I was/am not handling it the best I should be, but hopefully that changes. On some quick brighter notes, I can solve a 3x3 rubik's cube and a megaminx. The 3x3 has become my fidget toy as it keeps my brain engaged just enough to focus on a meeting or thought processes without being so overly complicated it distracts. That was not how it was initially. To begin with, I had to focus on the patterns, but with the amount I practiced that is less common now.
 
 
 ## Current State
@@ -39,24 +39,20 @@ Overall, it just leaves some sour tastes in my mouth when having to deal with th
 As a kid I tried fervently to get my parents to get me a punching bag. They told me so many times, we don't have the room. Well, as an adult I finally got one. I can't tell you how helpful it is. I am still not great at processing my emotions so when they come out as anger I can use that. And it's good cardio. That is all true, until it's not. You see, even with gloves, I end up hurting myself. I am not punching it lightly, and I end up causing bruising and swelling in every part of my hands. There have been times when I hit it and roll my wrists causing pain there. The pain can at times be cathartic, but when I can only get in 5 minutes of punching before my hands are in so much pain I can't stand it and have to go take meds and ice it is no longer effective. 5 minutes gets the edge off, but doesn't help me actually process anything.
 
 ##### Games
-For a long time, I played America's Army game on my playstation 4. Boy did that bring back memories of playing it in high school on my computer. It was nice, and I ended up meeting someone I could game regularly with. That was a god send at the time. I needed that friendship in my life more than I ever realized. Solo gaming is not fun for very long because I don't have someone to share it with. We gamed almost every night. We branched to other games like call of duty. I have never been a big fan of CoD because my skill is not the greatest, and then when you add in the number of "hackers" or "cheaters" into the mix. The play experience really sucks. Anyways, we got to Rocket League. That was a game I enjoyed a lot. We all did for a while. I started off as one of the worst players of our group. But I got better. It ended up that except for one or two of the people we played with I was better than the rest. That's when  the trouble really started to come from this game. It started to become stressful.
+For a long time, I played America's Army game on my PlayStation 4. Boy did that bring back memories of playing it in high school on my computer. It was nice, and I ended up meeting someone I could game regularly with. That was a god send at the time. I needed that friendship in my life more than I ever realized. Solo gaming is not fun for very long because I don't have someone to share it with. We gamed almost every night. We branched to other games like call of duty. I have never been a big fan of CoD because my skill is not the greatest, and then when you add in the number of "hackers" or "cheaters" into the mix. The play experience really sucks. Anyways, we got to Rocket League. That was a game I enjoyed a lot. We all did for a while. I started off as one of the worst players of our group. But I got better. It ended up that except for one or two of the people we played with I was better than the rest. That's when  the trouble really started to come from this game. It started to become stressful.
 
 We started to switch to other games to break up the stress and find other things to enjoy together. We tried Apex and a few others. Apex stayed with us for a while, but because they were so much better than I was I always felt like I was holding them back. I frequently, just sat there not contributing enough. It ended up with me not wanting to play anymore because it was no longer an escape.
 
-And so we focused on the new CoD again, but it was the same stuff, different title, and so I went back to rocket league. But this time every time I played, solo or with friends I ended up getting pissed off or depressed about everything going on. And so I just stopped logging into my playstation all together.
+And so we focused on the new CoD again, but it was the same stuff, different title, and so I went back to rocket league. But this time every time I played, solo or with friends I ended up getting pissed off or depressed about everything going on. And so I just stopped logging into my PlayStation all together.
 
-A few months later I joined up with some co-workers and we started playing other games together, but I get so lonely and bored because they have different schedules that it becomes disheartening to sit there in the world alone. And so I kind of just dropped those.
+A few months later I joined up with some co-workers and we started playing other games together, but I get so lonely and bored because they have different schedules that it becomes disheartening to sit there in the world alone. And so I kind of just dropped those, and pick them up every once in a while. At this time I am working with a group of friends to play some different games together on a regular basis, but it's not frequent enough to reduce enough stress.
 
 ##### Smoking my pipe
-
-#### New Job / Imposter Syndrome
-Talk about the main ideas
-
-
-### Kids
-
-### Wife
-
-### TV Shows and movies
+And so, I resort to smoking tobacco. For a long time I used cigarettes, and then switched to vaping. Vaping was hard on me, and I found I was taking in too much nicotine in a day because I sat at my desk constantly smoking it. It became like a pacifier to me, and so I switched to using a pipe and packing my tobacco into that. To help give me things to blog about and help me remember, I will be posting reviews about which items I do and do not like.
 
 ## What's to come
+So what's next? Well, here are the headers I was going to put into here, but I think I am just going to hold off on making this blog larger, and give myself some more blog posts.
+
+#### New Job / Imposter Syndrome
+
+### TV Shows and movies
