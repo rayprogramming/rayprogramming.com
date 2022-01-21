@@ -11,6 +11,7 @@ menu:
     name: "Life Update 1"
     identifier: life-update-1
     weight: 1
+    parent: life-updates
 ---
 
 ### Well... so much for plans
