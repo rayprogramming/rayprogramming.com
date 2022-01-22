@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Hugo Deploy
 permissions:
       id-token: write
       contents: read    # This is required for actions/checkout@v2
@@ -11,6 +11,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    if: github.ref == 'refs/heads/main'
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
