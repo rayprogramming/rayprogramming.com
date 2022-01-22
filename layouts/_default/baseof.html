@@ -22,6 +22,18 @@
     {{ $sass := resources.Get "/sass/style.scss" }}
     {{ $style := $sass | resources.ToCSS $options }}
     <link rel="stylesheet" href="{{ $style.Permalink }}"/>
+    <script type="text/javascript">
+      var http = new XMLHttpRequest();
+      var url = "https://analytics.rayprogramming.com/beacon"; //from Outputs section of CloudFormation stack
+      http.open("POST", url);
+      http.setRequestHeader("event","page_load");
+      http.setRequestHeader("clientid","anonymous");
+      http.setRequestHeader("page", window.location.pathname.split("/").slice(-1));
+      // http.setRequestHeader("referer",document.referrer);
+      http.setRequestHeader("custom_metric_name","userAgent");
+      http.setRequestHeader("custom_metric_string_value",navigator.userAgent);
+      http.send();
+    </script>
 
     <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
     {{ if site.GoogleAnalytics }}
