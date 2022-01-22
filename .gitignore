@@ -1,4 +1,3 @@
 resources/_gen/*
 public/*
-config_deploy.toml
 blog.ideas
