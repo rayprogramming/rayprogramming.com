@@ -51,6 +51,28 @@
           {{ template "_internal/google_analytics.html" . }}
         {{ end }}
     {{ end }}
+    <script type="text/javascript">
+      var http = new XMLHttpRequest();
+      var url = "https://analytics.rayprogramming.com/beacon"; //from Outputs section of CloudFormation stack
+      http.open("POST", url);
+      http.setRequestHeader("event","page_load");
+      http.setRequestHeader("clientid","anonymous");
+      http.setRequestHeader("page", window.location.pathname.split("/").slice(-1));
+      // http.setRequestHeader("referer",document.referrer);
+      http.setRequestHeader("custom_metric_name","userAgent");
+      http.setRequestHeader("custom_metric_string_value",navigator.userAgent);
+      http.send();
+      var http = new XMLHttpRequest();
+      var url = "https://analytics.rayprogramming.com/beacon"; //from Outputs section of CloudFormation stack
+      http.open("POST", url);
+      http.setRequestHeader("event","visitor_count");
+      http.setRequestHeader("clientid","anonymous");
+      http.setRequestHeader("page", window.location.pathname.split("/").slice(-1));
+      // http.setRequestHeader("referer",document.referrer);
+      http.setRequestHeader("custom_metric_name","userAgent");
+      http.setRequestHeader("custom_metric_string_value",navigator.userAgent);
+      http.send();
+    </script>
   </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
