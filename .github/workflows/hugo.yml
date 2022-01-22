@@ -1,0 +1,39 @@
+name: Hugo Deploy
+permissions:
+      id-token: write
+      contents: read    # This is required for actions/checkout@v2
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    if: github.ref == 'refs/heads/main'
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-region: us-east-2
+          role-to-assume: arn:aws:iam::529080338478:role/hugo_deploy
+          role-session-name: HugoDeploy
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        run: hugo deploy --config config.toml,config_deploy.toml
