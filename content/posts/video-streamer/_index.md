@@ -2,7 +2,7 @@
 title: Video Streamer
 menu:
   sidebar:
-    name: Streamer
+    name: Video Streamer
     identifier: streamer
     weight: 20
 ---
