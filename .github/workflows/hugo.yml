@@ -24,7 +24,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-region: us-east-2
-          role-to-assume: arn:aws:iam::529080338478:role/hugo_deploy
+          role-to-assume: ${{ TERRAFORM_AWS_DEPLOY_ROLE }}
           role-session-name: HugoDeploy
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

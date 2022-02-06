@@ -12,7 +12,7 @@ menu:
   sidebar:
     name: Why I blog
     identifier: why-i-blog
-    weight: 1
+    weight: 2
 ---
 
 ### Who am I?

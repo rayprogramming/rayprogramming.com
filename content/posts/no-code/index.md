@@ -10,7 +10,7 @@ menu:
   sidebar:
     name: "No Code"
     identifier: no-code
-    weight: 1
+    weight: 6
 ---
 
 ### Down the rabbit hole

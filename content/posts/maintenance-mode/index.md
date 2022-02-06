@@ -12,7 +12,7 @@ menu:
   sidebar:
     name: "Maintenance Mode"
     identifier: maintenance-mode
-    weight: 1
+    weight: 5
 ---
 
 ### Backstory
@@ -21,11 +21,11 @@ What do you do when you are a small company and don't want to have a multi regio
 
 Some of the core features could be mitigated a bit better, like the Redis servers that we use to reduce strain on our database and speed up load times for the end user. However, we have unfortunately not handled that with grace and so if our Redis server is down we get errors about it instead of falling back to the database. But, even if we had that fail safe what do we do about the database? What if we are doing something to our load balancer? Well, we have a solution, and it's elegance is up for debate.
 
-To give a bit more backstory, we use {{< link/route53 >}} to point at a {{< link/alb >}} that targets {{< link/fargate >}} tasks. All of this is built using {{< link/hashicorp >}}'s {{< link/terraform >}}. I have coded the entire infrastructure using this IaC setup, and I don't regret it. Well, I regret how I went about a few things, but doing all this in a month was a rush job I had to get done.
+To give a bit more backstory, we use {{< link/aws/route53 >}} to point at a {{< link/aws/alb >}} that targets {{< link/aws/fargate >}} tasks. All of this is built using {{< link/hashicorp >}}'s {{< link/terraform >}}. I have coded the entire infrastructure using this IaC setup, and I don't regret it. Well, I regret how I went about a few things, but doing all this in a month was a rush job I had to get done.
 
 ### How I did it
 
-The {{< link/codepipeline >}} runs {{< link/terraform >}} to build itself and every other bit of the infrastructure. So to enable to maintenance mode I threw a variable in there called `maintenance_mode`.
+The {{< link/aws/codepipeline >}} runs {{< link/terraform >}} to build itself and every other bit of the infrastructure. So to enable to maintenance mode I threw a variable in there called `maintenance_mode`.
 
 ```hcl
 variable "maintenance_mode" {
@@ -35,7 +35,7 @@ variable "maintenance_mode" {
 }
 ```
 
-This maintenance_mode boolean then allows me to trigger the {{< link/route53 >}} record to point to a CDN that we do not have controlled with IaC so that it can't be effected during maintenance. I am using [Terraform's dynamic blocks](https://www.terraform.io/docs/language/expressions/dynamic-blocks.html) to handle the switch without having to be too crazy about the if statements and state management.
+This maintenance_mode boolean then allows me to trigger the {{< link/aws/route53 >}} record to point to a CDN that we do not have controlled with IaC so that it can't be effected during maintenance. I am using [Terraform's dynamic blocks](https://www.terraform.io/docs/language/expressions/dynamic-blocks.html) to handle the switch without having to be too crazy about the if statements and state management.
 
 
 ```hcl
