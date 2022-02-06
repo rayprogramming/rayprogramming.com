@@ -1,7 +1,7 @@
 ---
 title: "Video Streamer GitHub Terraform"
 date: 2022-02-05T17:30:00-5:00
-publishDate: 2022-02-13T12:00:00-5:00
+publishDate: 2022-02-05T50:00:00-5:00
 description: "So you want to know more of how I setup my repo with Terraform eh?"
 hero: Octocat.jpg
 categories:
