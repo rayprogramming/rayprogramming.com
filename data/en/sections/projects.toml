@@ -16,6 +16,13 @@ name = "Hobby"
 filter = "hobby"
 
 [[projects]]
+name = "Docker Full Stack"
+role = "Owner"
+timeline = "Nov. 2018"
+repo = "https://github.com/rayprogramming/videoStreamer"
+summary = "A serverless Video Service website"
+tags = ["hobby", "cloud", "aws", "serverless", "terraform"]
+[[projects]]
 name = "TFLint AWS ruleset"
 role = "Member"
 timeline = "Jul. 2021"
