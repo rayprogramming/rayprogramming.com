@@ -1,7 +1,7 @@
 ---
 title: "Video Streamer Project"
 slug: "Video Streamer"
-date: 2022-02-05T17:30:00-5:00
+date: 2022-02-05T17:30:00
 publishDate: 2022-02-05T20:00:00-5:00
 description: "Info about my video streamer project"
 hero: hero.jpg
