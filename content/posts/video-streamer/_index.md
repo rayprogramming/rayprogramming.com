@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: Video Streamer
     identifier: streamer
-    weight: 20
+    weight: 3
 ---

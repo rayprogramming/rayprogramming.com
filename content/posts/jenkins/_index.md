@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: Jenkins
     identifier: jenkins
-    weight: 20
+    weight: 4
 ---

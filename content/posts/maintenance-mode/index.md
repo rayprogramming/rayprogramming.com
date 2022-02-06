@@ -12,7 +12,7 @@ menu:
   sidebar:
     name: "Maintenance Mode"
     identifier: maintenance-mode
-    weight: 1
+    weight: 5
 ---
 
 ### Backstory
