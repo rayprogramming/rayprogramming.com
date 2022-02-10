@@ -1,7 +1,7 @@
 ---
 title: "Designing the Front End Part 1"
 date: 2022-02-09T22:15:00
-publishDate: 2022-02-10T20:00:00-5:00
+publishDate: 2022-02-9T22:45:00-5:00
 description: "The first steps I took in designing the front end"
 hero: daniel-korpai-pKRNxEguRgM-unsplash.jpg
 categories:
