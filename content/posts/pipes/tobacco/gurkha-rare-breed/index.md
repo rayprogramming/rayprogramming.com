@@ -1,7 +1,7 @@
 ---
 title: "Gurkha Rare Breed"
 date: 2022-02-27T22:31:00-05:00
-publishDate: 2022-02-01T12:00:00-05:00
+publishDate: 2022-02-26T12:00:00-05:00
 description: "My review of Gurkha Rare Breed"
 hero: hero.png
 categories:
