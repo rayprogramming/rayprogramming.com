@@ -4,7 +4,7 @@ permissions:
       contents: read    # This is required for actions/checkout@v2
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 16 * * 6'
   push:
     branches:
       - main  # Set a branch to deploy
