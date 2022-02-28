@@ -1,7 +1,7 @@
 ---
 title: "Smoker Friendly's Classic Black"
 date: 2022-02-27T22:13:00-05:00
-publishDate: 2022-02-30T12:00:00-05:00
+publishDate: 2022-03-02T12:00:00-05:00
 description: "My review of Classic Black from Smoker Friendly"
 hero: hero.jpeg
 categories:
