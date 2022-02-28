@@ -3,7 +3,7 @@ title: "Gurkha Rare Breed"
 date: 2022-02-27T22:31:00-05:00
 publishDate: 2022-02-01T12:00:00-05:00
 description: "My review of Gurkha Rare Breed"
-hero: hero.jpeg
+hero: hero.png
 categories:
 - Red Virginia
 - Turkish
@@ -23,8 +23,8 @@ tags:
 - Mellow
 menu:
   sidebar:
-    name: "Lane Burley"
-    identifier: lane-burley-light-without-a-bite
+    name: "Gurkha Rare Breed"
+    identifier: gurkha-rare-breed
     parent: tobacco
     weight: 1
 ---
@@ -46,3 +46,5 @@ Man does this smell take me back! I grew up around a circus, and one whiff of th
 ---
 ## Thoughts
 I am going to have to disagree with the site where I purchased this on the room notes and flavor intensity. But only slightly. I find that this tends to be one of my go to choices. I just wish that I could find a more consistent supply. The last tin I bought of this was dryer than a sun baked bone. It crumbled in my hands. I have bought this previously, and the first couple I got had a consistent and perfect moisture content to allow for a smooth smoke.
+
+{{< link/hero-credit url="https://www.pipesandcigars.com/p/gurkha-rare-breed-pipe-tobacco/1509228/" name="Pipes and Cigars" >}}
