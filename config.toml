@@ -31,7 +31,7 @@ home = ["HTML","JSON"]
 [params]
   background = "/images/IMG_2343.JPG"
   # GitHub repo URL of your site
-  gitRepo = "https://github.com/rihoj/rayprogramming"
+  gitRepo = "https://github.com/rayprogramming/rayprogramming"
 
   # specify whether you want to write some blog posts or not
   enableBlogPost = true
@@ -46,14 +46,18 @@ enable = true
 
 [params.logo]
 main = "/images/IMG_2007.JPG"
-
-
-[features]
-[features.portfolio]
+[params.features]
+[params.features.comment]
 enable = true
-[features.blog]
+[params.features.comment.giscus]
+repo = "rayprogramming/rayprogramming.com"
+theme = "dark"
+
+[params.features.portfolio]
 enable = true
-[features.notes]
+[params.features.blog]
+enable = true
+[params.features.notes]
 enable = true
 
 [frontmatter]
