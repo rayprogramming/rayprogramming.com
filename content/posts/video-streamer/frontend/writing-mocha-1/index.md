@@ -3,6 +3,7 @@ title: "Writing Mocha 1"
 date: 2022-03-02T17:05:25-05:00
 publishDate: 2022-03-05T11:00:00-05:00
 description: "Writing Mocha Tests"
+hero: koushik-pal-C_vE8ZIHJ3Y-unsplash.jpg
 categories:
 - vuejs
 - frontend
@@ -30,7 +31,7 @@ menu:
     weight: 1
 ---
 
-### Opener
+### Let's get started with Mocha
 Be forewarned this post is going to be a brain dump as I work through this information.
 
 I have never wrote [Mocha](https://mochajs.org/) before, and to be honest I have never been good about TDD. I always write my code and then go back and write my tests. This is mainly because I am not always sure what I expect to get out of my code until it's too late. However, with this project I am trying to push myself to work on myself just as much create something in my head from start to finish.
@@ -188,3 +189,5 @@ describe("LoginForm.vue", () => {
 
 ### Next steps
 The next steps will be to incorporate test to make sure that logging in will actually work as expected.
+
+{{< link/unsplash-hero userTag="@koushikpal" user="Koushik Pal" >}}
