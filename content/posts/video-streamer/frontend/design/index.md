@@ -16,7 +16,7 @@ tags:
 - videojs
 - video
 - js
-- javascripts
+- javascript
 menu:
   sidebar:
     name: Front End Design 1/?
