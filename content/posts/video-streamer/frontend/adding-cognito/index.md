@@ -2,8 +2,7 @@
 title: "Adding Cognito"
 date: 2022-03-03T00:25:21-05:00
 publishDate: 2022-03-03T00:25:21-05:00
-draft: true
-description: "TODO"
+description: "The steps and notes I took with adding cognito"
 hero: braydon-anderson-wOHH-NUTvVc-unsplash.jpg
 categories:
 - vuejs
