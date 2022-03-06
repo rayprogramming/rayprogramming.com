@@ -4,6 +4,8 @@
     <title>{{ .Page.Title }}</title>
     <!------ ADD COMMON HEADERS -------->
     {{- partial "header.html" . -}}
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.GoogleAnalyticsID }}"></script>
     <script>
