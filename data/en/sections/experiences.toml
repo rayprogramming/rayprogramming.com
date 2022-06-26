@@ -31,6 +31,7 @@ responsibilities = [
 'Worked with Terraform, Ansible, Python3, and CircleCI.',
 'Worked with Secuity team to make sure vendors were implementing best security practices'
 ]
+[[experiences]]
 [experiences.company]
 name = "Five Star Technology Solutions"
 url = "https://fivestartech.com"
