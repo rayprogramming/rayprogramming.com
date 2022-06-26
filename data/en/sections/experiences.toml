@@ -6,6 +6,31 @@ weight = 7
 showOnNavbar = true
 
 [[experiences]]
+[experiance.company]
+name = "Marathon Health"
+url = "https://marathon-health.com"
+location = "Indianapolis, IN"
+overview = "Unmatched Access to Employer-Sponsored Healthcare"
+[[experiences.positions]]
+designation = "Site Reliability Engineer"
+start = "June. 2022"
+responsibilities = [
+'Monitor performance metrics and alerts.',
+'Implement the usage of DORA metrics to improve developer productivity',
+'Design, implement, and maintain CI/CD practices in AWS.',
+'Monitor usage alerts for production environments.',
+'Worked with Terraform, Ansible, Python3, and CircleCI.'
+]
+[[experiences.positions]]
+designation = "DevOps Engineer"
+start = "Sept. 2021"
+end = "June. 2022"
+responsibilities = [
+'Design, implement, and maintain CI/CD practices in AWS.',
+'Monitor usage alerts for production environments.',
+'Worked with Terraform, Ansible, Python3, and CircleCI.',
+'Worked with Secuity team to make sure vendors were implementing best security practices'
+]
 [experiences.company]
 name = "Five Star Technology Solutions"
 url = "https://fivestartech.com"
@@ -14,6 +39,7 @@ overview = "Helping schools create awesome learning experiences for kids!"
 [[experiences.positions]]
 designation = "DevOps Engineer"
 start = "Nov. 2020"
+end = "Sept. 2021"
 responsibilities = [
 'Design, develop, and maintain serverless and managed services in AWS and GCP using IaC with Terraform.',
 'Responsible for maintaining containerized versions of our application for local development and testing.',
