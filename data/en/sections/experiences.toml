@@ -6,7 +6,7 @@ weight = 7
 showOnNavbar = true
 
 [[experiences]]
-[experiance.company]
+[experiances.company]
 name = "Marathon Health"
 url = "https://marathon-health.com"
 location = "Indianapolis, IN"
