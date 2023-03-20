@@ -33,7 +33,12 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
+      - name: hugo mod tidy
+        run: hugo mod tidy
+      - name: hugo npm pack
+        run: hugo mod npm pack
+      - name: npm install
+        run: npm install
       - name: Build
         run: hugo --minify
 
