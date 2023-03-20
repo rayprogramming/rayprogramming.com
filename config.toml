@@ -52,7 +52,8 @@ enable = true
 [params.features.comment.giscus]
 repo = "rayprogramming/rayprogramming.com"
 theme = "dark"
-
+[params.features.mermaid]
+enabled = true
 [params.features.portfolio]
 enable = true
 [params.features.blog]

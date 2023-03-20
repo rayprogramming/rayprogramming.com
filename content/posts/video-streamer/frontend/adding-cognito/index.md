@@ -27,6 +27,25 @@ menu:
     weight: 1
 ---
 
+{{< mermaid align="center" >}}
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+{{< /mermaid >}}
+
 ### Why do I torture myself?
 Not only do I hate frontend code, I hate trying to handle user authentication. It feels like anything I can think of doing is not secure enough or so complicated I can't wrap my head around it. I once was told that for something like user security you shouldn't try to do it yourself, you should allow those who specialize in it to handle it. So here I go, I'm going to try to use {{< link/aws/cognito >}} to do just that form me.
 
