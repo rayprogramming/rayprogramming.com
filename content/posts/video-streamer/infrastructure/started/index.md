@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 date: 2022-02-05T17:30:00
-publishDate: 2022-02-05T20:00:00-5:00
+publishDate: 2022-02-05T20:00:00-05:00
 description: "Getting started with infrastructure for my video streamer project"
 hero: Terraform_PrimaryLogo_ColorWhite_RGB.png
 categories:
