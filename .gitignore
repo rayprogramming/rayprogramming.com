@@ -1,3 +1,10 @@
 resources/_gen/*
 public/*
 blog.ideas
+
+# PlantUML temp files
+temp/plantuml/
+# PlantUML JAR (downloaded automatically)
+bin/plantuml.jar
+
+temp/*

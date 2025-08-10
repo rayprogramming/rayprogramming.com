@@ -1,0 +1,17 @@
+# Development configuration for Hugo
+# This config inherits from config.toml and adds development-specific settings
+
+# Import the main config
+imports = ["config.toml"]
+
+# Build future and draft content by default in development
+buildFuture = true
+buildDrafts = true
+
+# Enable live reload and disable caching for development
+disableLiveReload = false
+disableFastRender = true
+
+# More verbose logging in development
+log = true
+logLevel = "info"
