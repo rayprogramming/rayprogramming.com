@@ -53,7 +53,7 @@
   
   {{- /* If still not found, show error */ -}}
   {{- if not $found -}}
-    {{- $content = printf "Error: Could not read file '%s'. Tried paths: %s, %s%s" $file $file (.Page.File.Dir | printf "%s%s" $file) (printf "/%s" $file) -}}
+    {{- $content = printf "Error: Could not read file '%s'. Tried the following paths:\n- Site-relative: %s\n- Page-relative: %s\n- Absolute: %s" $file $siteRelativePath $pageRelativePath $absolutePath -}}
   {{- end -}}
 
   {{- if $lines -}}
