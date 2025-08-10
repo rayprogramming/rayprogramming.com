@@ -53,7 +53,9 @@
   
   {{- /* If still not found, show error */ -}}
   {{- if not $found -}}
-    {{- $content = printf "Error: Could not read file '%s'. Tried the following paths:\n- Site-relative: %s\n- Page-relative: %s\n- Absolute: %s" $file $siteRelativePath $pageRelativePath $absolutePath -}}
+    {{- $pageRelativePath := printf "%s%s" .Page.File.Dir $file -}}
+    {{- $absolutePath := printf "/%s" $file -}}
+    {{- $content = printf "Error: Could not read file '%s'. Tried the following paths:\n- Site-relative: %s\n- Page-relative: %s\n- Absolute: %s" $file $file $pageRelativePath $absolutePath -}}
   {{- end -}}
 
   {{- if $lines -}}
