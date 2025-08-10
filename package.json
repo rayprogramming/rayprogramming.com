@@ -1,5 +1,5 @@
 {
-  "name": "rayprogramming",
+  "name": "rayprogramming.com",
   "version": "0.1.0",
   "scripts": {
     "dev": "npm run plantuml:generate && hugo server --buildFuture --buildDrafts --disableFastRender",
