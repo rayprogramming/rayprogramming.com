@@ -4,7 +4,7 @@ permissions:
       contents: read    # This is required for actions/checkout@v2
 on:
   schedule:
-    - cron: '0 16 * * 6'
+    - cron: '0 15 * * 1'  # Mondays at 3:00 PM UTC (9:00 AM MT) - 1 hour after publish time
   push:
     branches:
       - main  # Set a branch to deploy
@@ -18,10 +18,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: checkout
-        uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+        uses: actions/checkout@v4
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:

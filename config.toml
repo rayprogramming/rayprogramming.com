@@ -25,7 +25,7 @@ weight = 1
 [markup.tableOfContents]
 startLevel = 2
 endLevel = 6
-ordered = false
+ordered = true
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = false
@@ -35,7 +35,7 @@ home = ["HTML","JSON"]
 [params]
   background = "/images/IMG_2343.JPG"
   # GitHub repo URL of your site
-  gitRepo = "https://github.com/rayprogramming/rayprogramming"
+  gitRepo = "https://github.com/rayprogramming/rayprogramming.com"
 
   # specify whether you want to write some blog posts or not
   enableBlogPost = true
@@ -51,6 +51,12 @@ enable = true
 [params.logo]
 main = "/images/IMG_2007.JPG"
 [params.features]
+[params.features.theme]
+enable = true
+[params.features.theme.services]
+default = "system"
+light = true
+dark = true
 [params.features.comment]
 enable = true
 [params.features.comment.giscus]
@@ -76,6 +82,10 @@ path = "github.com/hugo-toha/toha/v4"
 [[module.mounts]]
 source = "static/files"
 target = "static/files"
+
+[[module.mounts]]
+source = "static/diagrams"
+target = "static/diagrams"
 
 [[module.mounts]]
 source = "./node_modules/flag-icon-css/flags"

@@ -1,0 +1,13 @@
+{{- $content := .Inner -}}
+{{- $trimmed := $content | strings.TrimSpace -}}
+{{- $hash := ($trimmed | sha256 | truncate 8 "") -}}
+{{- $filename := printf "%s-%s.svg" (.Page.File.BaseFileName | default "diagram") $hash -}}
+{{- $svgPath := printf "/diagrams/%s" $filename -}}
+
+<div class="plantuml-diagram">
+  <img 
+    src="{{ $svgPath }}" 
+    alt="{{ .Get "alt" | default "PlantUML Diagram" }}" 
+    loading="lazy"
+  />
+</div>

@@ -1,10 +1,10 @@
 version: 2
 updates:
-# Update the git submodules
-- package-ecosystem: "gitsubmodule"
+# Update npm dependencies
+- package-ecosystem: "npm"
   directory: "/"
   schedule:
-    interval: "daily"
+    interval: "weekly"
   labels:
   - "dependencies"
   - "automerge"

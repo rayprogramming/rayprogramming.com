@@ -1,0 +1,137 @@
+{{- $file := .Get "file" -}}
+{{- $lang := .Get "lang" | default "text" -}}
+{{- $title := .Get "title" | default $file -}}
+{{- $lines := .Get "lines" -}}
+{{- $highlight := .Get "highlight" -}}
+{{- $lineNumbers := .Get "linenumbers" | default "true" -}}
+{{- $showLineNumbers := eq $lineNumbers "true" -}}
+
+{{- /* Initialize variables for line processing */ -}}
+{{- $minLineNumber := 999999 -}}
+{{- $maxLineNumber := 0 -}}
+{{- $hasValidLines := false -}}
+
+{{- if not $file -}}
+  <div class="error">Error: file parameter is required for includecode shortcode</div>
+{{- else -}}
+  {{- $content := "" -}}
+  
+  {{- /* Try multiple path resolution strategies */ -}}
+  {{- $found := false -}}
+  
+  {{- /* Strategy 1: Try as Hugo resource */ -}}
+  {{- with resources.Get $file -}}
+    {{- $content = .Content -}}
+    {{- $found = true -}}
+  {{- end -}}
+  
+  {{- /* Strategy 2: Try direct os.ReadFile with site-relative path */ -}}
+  {{- if not $found -}}
+    {{- with os.ReadFile $file -}}
+      {{- $content = . -}}
+      {{- $found = true -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Strategy 3: Try relative to current page directory */ -}}
+  {{- if not $found -}}
+    {{- $pageDirPath := printf "%s%s" .Page.File.Dir $file -}}
+    {{- with os.ReadFile $pageDirPath -}}
+      {{- $content = . -}}
+      {{- $found = true -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* Strategy 4: Try absolute path from site root */ -}}
+  {{- if not $found -}}
+    {{- $absolutePath := printf "/%s" $file -}}
+    {{- with os.ReadFile $absolutePath -}}
+      {{- $content = . -}}
+      {{- $found = true -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- /* If still not found, show error */ -}}
+  {{- if not $found -}}
+    {{- $content = printf "Error: Could not read file '%s'. Tried the following paths:\n- Site-relative: %s\n- Page-relative: %s\n- Absolute: %s" $file $siteRelativePath $pageRelativePath $absolutePath -}}
+  {{- end -}}
+
+  {{- if $lines -}}
+    {{- $allLines := split $content "\n" -}}
+    {{- $numLines := len $allLines -}}
+    {{- $selectedLines := slice nil -}}
+    
+    {{- if gt $numLines 0 -}}
+      {{- /* Split by comma to handle multiple ranges/lines */ -}}
+      {{- $ranges := split $lines "," -}}
+      {{- range $ranges -}}
+        {{- $range := trim . " " -}}
+        {{- if strings.Contains $range "-" -}}
+          {{- /* Handle range like "4-11" */ -}}
+          {{- $lineRange := split $range "-" -}}
+          {{- if eq (len $lineRange) 2 -}}
+            {{- $startLine := index $lineRange 0 | int -}}
+            {{- $endLine := index $lineRange 1 | int -}}
+            {{- if lt $startLine $minLineNumber -}}{{- $minLineNumber = $startLine -}}{{- end -}}
+            {{- if gt $endLine $maxLineNumber -}}{{- $maxLineNumber = $endLine -}}{{- end -}}
+            {{- $hasValidLines = true -}}
+            {{- range $i, $line := $allLines -}}
+              {{- $currentLineNumber := add $i 1 -}}
+              {{- if and (ge $currentLineNumber $startLine) (le $currentLineNumber $endLine) -}}
+                {{- $selectedLines = $selectedLines | append $line -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- else -}}
+          {{- /* Handle single line like "1" or "41" */ -}}
+          {{- $lineNumber := $range | int -}}
+          {{- if lt $lineNumber $minLineNumber -}}{{- $minLineNumber = $lineNumber -}}{{- end -}}
+          {{- if gt $lineNumber $maxLineNumber -}}{{- $maxLineNumber = $lineNumber -}}{{- end -}}
+          {{- if and (ge $lineNumber 1) (le $lineNumber $numLines) -}}
+            {{- $hasValidLines = true -}}
+            {{- $lineIndex := sub $lineNumber 1 -}}
+            {{- $selectedLines = $selectedLines | append (index $allLines $lineIndex) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      
+      {{- /* Join the selected lines */ -}}
+      {{- if $selectedLines -}}
+        {{- $content = delimit $selectedLines "\n" | strings.TrimSpace -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  <div class="includecode">
+    {{- if $title -}}
+    <div class="includecode-header">
+      <span class="includecode-title">{{ $title }}</span>
+      {{- if $lines -}}
+      <span class="includecode-lines">Lines {{ $lines }}</span>
+      {{- end -}}
+    </div>
+    {{- end -}}
+    
+    {{- if $highlight -}}
+    {{ highlight $content $lang $highlight }}
+    {{- else -}}
+      {{- if $showLineNumbers -}}
+        {{- if $lines -}}
+          {{- /* For line ranges, use the minimum line number as the starting point */ -}}
+          {{- if and $hasValidLines (gt $minLineNumber 0) (lt $minLineNumber 999999) -}}
+            {{- $linenoStart := printf "linenos=inline,linenostart=%d" $minLineNumber -}}
+            {{ highlight $content $lang $linenoStart }}
+          {{- else -}}
+            {{ highlight $content $lang "linenos=inline" }}
+          {{- end -}}
+        {{- else -}}
+          {{- /* No specific lines, just show line numbers from start */ -}}
+          {{ highlight $content $lang "linenos=inline" }}
+        {{- end -}}
+      {{- else -}}
+        {{- /* Line numbers disabled */ -}}
+        {{ highlight $content $lang "" }}
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}
