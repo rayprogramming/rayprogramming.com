@@ -8,3 +8,4 @@ temp/plantuml/
 bin/plantuml.jar
 
 temp/*
+node_modules/*
