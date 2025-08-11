@@ -26,10 +26,11 @@ jobs:
           role-to-assume: ${{ secrets.TERRAFORM_AWS_DEPLOY_ROLE }}
           role-session-name: HugoDeploy
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: noesya/actions-hugo@release
         with:
           hugo-version: 'latest'
           extended: true
+          withdeploy: true
       - name: hugo mod tidy
         run: hugo mod tidy
       - name: hugo npm pack
