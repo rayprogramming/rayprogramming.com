@@ -1,7 +1,7 @@
 ---
 title: "Part 4: Monitoring and Operations - Complete Hugo on AWS Guide"
-date: 2025-09-08T08:00:00-06:00
-publishDate: 2025-09-08T08:00:00-06:00
+date: 2025-09-22T08:00:00-06:00
+publishDate: 2025-09-22T08:00:00-06:00
 description: "Set up comprehensive monitoring, alerting, and performance optimization for your Hugo site on AWS with CloudWatch, Real User Monitoring, and automated health checks."
 categories:
   - devops
