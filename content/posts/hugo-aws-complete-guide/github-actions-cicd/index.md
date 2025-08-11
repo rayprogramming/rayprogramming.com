@@ -219,9 +219,11 @@ jobs:
           aws-region: us-east-2
 
       - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: noesya/actions-hugo@release
         with:
-          hugo-version: '0.125.0'
+          hugo-version: 'latest'
+          extended: true
+          withdeploy: true
 
       - name: Build
         run: hugo --minify
@@ -230,6 +232,8 @@ jobs:
         run: |
           hugo deploy --maxDeletes -1
 ```
+
+> **Important**: We're using `noesya/actions-hugo@release` instead of the more common `peaceiris/actions-hugo` because the peaceiris action doesn't support Hugo's deploy functionality. The `withdeploy: true` parameter ensures Hugo is built with deploy support, which is required for the `hugo deploy` command to work with S3.
 
 Notice how we're using the `aws-actions/configure-aws-credentials` action with OIDC instead of hardcoded access keys. The `permissions` section is crucial—it grants the workflow the ability to request an identity token that AWS can verify.
 
