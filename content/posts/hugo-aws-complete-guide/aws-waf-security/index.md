@@ -1,8 +1,8 @@
 ---
-title: "Part 3: Security with AWS WAF"
-date: 2025-09-01T08:00:00-06:00
-publishDate: 2025-09-01T08:00:00-06:00
-description: "Implement AWS WAF for web application protection, rate limiting, and DDoS mitigation for your Hugo site."
+title: "Part 3: Security and WAF - Complete Hugo on AWS Guide"
+date: 2025-09-15T08:00:00-06:00
+publishDate: 2025-09-15T08:00:00-06:00
+description: "Secure your Hugo site with AWS WAF, DDoS protection, and security headers for production-grade web application security."
 categories:
   - devops
   - terraform

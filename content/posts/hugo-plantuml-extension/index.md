@@ -137,8 +137,19 @@ This shortcode:
 
 Add these scripts to your `package.json`:
 
-{{<includecode file="package.json" lines="1,4-11,41" lang="json">}}
 
+{{< codeTitle title=package.json lang=json >}}
+{
+  "scripts": {
+    "dev": "npm run plantuml:generate && hugo server --buildFuture --buildDrafts --disableFastRender",
+    "dev:future": "npm run plantuml:generate && hugo server --buildFuture",
+    "build": "npm run plantuml:generate && hugo --minify",
+    "build:future": "npm run plantuml:generate && hugo --buildFuture --minify",
+    "plantuml:generate": "node bin/generate-plantuml-svgs.js",
+    "plantuml:setup": "node bin/setup-plantuml.js"
+  }
+}
+{{< /codeTitle >}}
 ## Step 6: Hugo Configuration
 
 Add the diagrams directory to your Hugo module mounts in `config.toml`:

@@ -1,7 +1,7 @@
 ---
 title: "Part 1: CI/CD Pipeline with GitHub Actions"
-date: 2025-08-18T08:00:00-06:00
-publishDate: 2025-08-18T08:00:00-06:00
+date: 2025-09-01T08:00:00-06:00
+publishDate: 2025-09-01T08:00:00-06:00
 description: "Set up automated Hugo deployments with GitHub Actions and AWS OIDC for secure, keyless authentication."
 categories:
   - devops

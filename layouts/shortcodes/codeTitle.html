@@ -1,0 +1,10 @@
+{{- $lang := .Get "lang" | default "text" -}}
+{{- $content := .Inner | safeHTML | strings.TrimSpace -}}
+{{- $highlight := .Get "highlight" -}}
+{{- $title := .Get "title" | default "Code Snippet" -}}
+<div class="includecode">
+    <div class="includecode-header">
+        <span class="includecode-title">{{ $title }}</span>
+    </div>
+    {{ highlight $content $lang $highlight }}
+</div>

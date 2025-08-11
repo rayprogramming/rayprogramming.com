@@ -1,7 +1,7 @@
 ---
 title: "Part 2: Complete AWS Infrastructure"
-date: 2025-08-25T08:00:00-06:00
-publishDate: 2025-08-25T08:00:00-06:00
+date: 2025-09-08T08:00:00-06:00
+publishDate: 2025-09-08T08:00:00-06:00
 description: "Set up Route 53, CloudFront, SSL certificates, and advanced caching for production-grade Hugo hosting on AWS."
 categories:
   - devops

@@ -1,7 +1,7 @@
 ---
 title: "Complete Guide to Hugo on AWS: From CI/CD to Production Infrastructure"
-date: 2025-08-18T08:00:00-06:00
-publishDate: 2025-08-18T08:00:00-06:00
+date: 2025-08-25T08:00:00-06:00
+publishDate: 2025-08-25T08:00:00-06:00
 description: "A comprehensive multi-part guide to deploying Hugo sites on AWS with GitHub Actions, Terraform, CloudFront, WAF, and production-grade security."
 categories:
   - devops
