@@ -1,6 +1,6 @@
 ---
 title: "Life Update: August 2025"
-date: 2025-08-18T08:00:00-06:00
+date: 2025-08-11T08:00:00-06:00
 publishDate: 2025-08-11T08:00:00-06:00
 description: "Reflecting on personal growth, a cross-country move, and rebuilding my homelab."
 categories:

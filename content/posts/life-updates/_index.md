@@ -4,5 +4,5 @@ menu:
   sidebar:
     name: Life Updates
     identifier: life-updates
-    weight: 1
+    weight: 6
 ---

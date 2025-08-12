@@ -87,17 +87,5 @@ target = "static/files"
 source = "static/diagrams"
 target = "static/diagrams"
 
-[[module.mounts]]
-source = "./node_modules/flag-icon-css/flags"
-target = "static/flags"
-
-[[module.mounts]]
-source = "./node_modules/@fontsource/mulish/files"
-target = "static/files"
-
-[[module.mounts]]
-source = "./node_modules/katex/dist/fonts"
-target = "static/fonts"
-
 [darkMode]
 enable = true
