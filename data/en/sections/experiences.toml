@@ -8,75 +8,86 @@ showOnNavbar = true
 [[experiences]]
 [experiences.company]
 name = "Marathon Health"
-url = "https://marathon-health.com"
-location = "Indianapolis, IN"
+url = "https://marathon.health"
+location = "Remote"
 overview = "Unmatched Access to Employer-Sponsored Healthcare"
 [[experiences.positions]]
 designation = "Site Reliability Engineer"
-start = "June. 2022"
+start = "June 2022"
 responsibilities = [
-'Monitor performance metrics and alerts.',
-'Implement the usage of DORA metrics to improve developer productivity',
-'Design, implement, and maintain CI/CD practices in AWS.',
-'Monitor usage alerts for production environments.',
-'Worked with Terraform, Ansible, Python3, and CircleCI.'
+    "Designed and maintained scalable CI/CD pipelines in AWS using Terraform, Ansible, CircleCI, GitHub Actions, and Python, streamlining deployment and reducing manual intervention.",
+    "Led the operational management of containerized workloads, leveraging ECS and Docker, including resource alerting, auto-scaling, and rollout strategies.",
+    "Collaborated with engineering and product teams to define infrastructure requirements and deploy environments across Dev, QA, Staging, and Production, ensuring adherence to compliance standards such as HIPAA and SOC2.",
+    "Improved infrastructure observability by integrating and tuning performance monitoring and alerting solutions to proactively respond to system degradation.",
+    "Partnered with the security and compliance teams to support the implementation of IAM controls and secure secrets management within production pipelines.",
+    "Supported the incident response process, leading root cause analysis and contributing to postmortems that improved future resilience and reduced MTTR.",
+    "Drove adoption of Infrastructure as Code (IaC) practices and mentored junior engineers on best practices, Terraform state management, and modularization.",
+    "Collaborated with VP of IT Ops and Core Engineering to align infrastructure priorities with evolving business and product needs.",
+    "Contributed to strategic planning of internal platform initiatives by providing operational insight into scalability, cost optimization, and infrastructure modernization."
 ]
 [[experiences.positions]]
 designation = "DevOps Engineer"
 start = "Sept. 2021"
-end = "June. 2022"
+end = "June 2022"
 responsibilities = [
-'Design, implement, and maintain CI/CD practices in AWS.',
-'Monitor usage alerts for production environments.',
-'Worked with Terraform, Ansible, Python3, and CircleCI.',
-'Worked with Secuity team to make sure vendors were implementing best security practices'
+    "Implemented cloud infrastructure solutions in AWS, focusing on modular, version-controlled Terraform configurations to manage ECS, VPC, IAM, and CloudWatch.",
+    "Maintained production reliability through proactive cost monitoring, right-sizing, and automating usage alerts for compute and storage resources.",
+    "Collaborated cross-functionally with the InfoSec team to enforce secure design patterns during third-party vendor integrations and internal deployments.",
+    "Contributed to foundational CI/CD architecture used company-wide by development teams, improving delivery consistency and reducing deployment friction.",
+    "Documented operational runbooks, onboarding guides, and process automation steps to standardize team workflows and reduce tribal knowledge dependencies."
 ]
+
 [[experiences]]
 [experiences.company]
-name = "Five Star Technology Solutions"
+name = "Five-Star Technology Solutions"
 url = "https://fivestartech.com"
-location = "Jeffersonville, Indiana"
+location = "Remote"
 overview = "Helping schools create awesome learning experiences for kids!"
 [[experiences.positions]]
 designation = "DevOps Engineer"
 start = "Nov. 2020"
 end = "Sept. 2021"
 responsibilities = [
-'Design, develop, and maintain serverless and managed services in AWS and GCP using IaC with Terraform.',
-'Responsible for maintaining containerized versions of our application for local development and testing.',
-'Design CI/CD practices in AWS and GCP.',
-'Monitor usage alerts for production environments.',
-'Worked with Terraform, Packer, Ansible, Python3.'
+    "Designed, deployed, and maintained cloud-native services using AWS and GCP, with Terraform-driven Infrastructure as Code to enforce repeatable, version-controlled deployments.",
+    "Led the containerization of application environments using Docker, enabling consistent local development and streamlining CI/CD testing pipelines.",
+    "Architected and enforced CI/CD pipelines in both AWS and GCP to support automated testing, secure deployments, and production rollouts with rollback capabilities.",
+    "Developed monitoring and cost-optimization alerts to proactively manage cloud resource usage across production environments.",
+    "Collaborated with multiple departments to define DevOps adoption strategies and mentored engineering teams on IaC best practices, observability, and secure service provisioning.",
+    "Conducted platform-level operational reviews, identifying opportunities to reduce toil through Ansible automation and streamlined deployment scripts.",
+    "Participated in postmortems and root cause analysis for production incidents, contributing improvements to infrastructure stability and monitoring coverage."
 ]
 [[experiences.positions]]
 designation = "Applications Developer"
 start = "Feb. 2017"
 end = "Nov. 2020"
-
 responsibilities = [
-'Design and develop custom data warehouse and other core products for Pivot',
-'Work in Agile Environment to deliver software to stakeholders.',
-'Worked with PHP, MySQL JS ES6.',
-'Provided SWAT support for software.'
+    "Designed and developed a custom data warehouse to centralize and report on education-based metrics used across multiple school districts.",
+    "Built and maintained full-stack applications in a fast-paced Agile environment using PHP, MySQL, and JavaScript (ES6).",
+    "Integrated REST APIs and batch-processing ETL pipelines to sync and transform large datasets across districts and platforms.",
+    "Provided SWAT support for business-critical software, triaging high-impact issues and coordinating fixes under pressure.",
+    "Partnered with stakeholders to gather requirements and deliver iterative improvements, balancing technical debt and business value.",
+    "Championed internal DevOps initiatives, including modernizing legacy deployment methods and piloting containerized dev/test environments.",
+    "Assisted with onboarding of new developers by documenting system architecture and guiding them through CI/CD workflows and environment setup."
 ]
 
 [[experiences]]
 [experiences.company]
 name = "Roosevelt Water Conservation District"
 url = "https://rwcd.net"
-location = "Gilbert, Arizona"
+location = "Remote"
 overview = "Contracts with Roosevelt Water Conservation District to build and support their website."
 [[experiences.positions]]
 designation = "Contractual Web Developer"
 start = "Aug. 2015"
 end = "Mar. 2016"
-
 responsibilities = [
-'Provided web development using Yii Framework.',
-'Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL',
-'Designed and developed ticket tracking system.',
-'Migrated data to new web server.',
-'Modified Access to CSV Java program.'
+    "Contracted to modernize and support the district's internal and external web presence using the Yii Framework (PHP MVC).",
+    "Designed and implemented a custom ticket tracking system, streamlining internal support requests and resolution tracking.",
+    "Led the successful data migration from legacy hosting environments to a new web server, ensuring minimal downtime and validating data integrity throughout the cutover.",
+    "Reverse-engineered and modified a legacy Java program to convert Microsoft Access data into usable CSV exports for web integration.",
+    "Integrated front-end components with dynamic back-end functionality using HTML, CSS, JavaScript, jQuery, PHP, and MySQL.",
+    "Identified and addressed system vulnerabilities and deprecated dependencies, improving long-term maintainability and operational resilience.",
+    "Documented deployment and migration processes to support knowledge transfer and future scalability."
 ]
 
 [[experiences]]
@@ -88,13 +99,12 @@ overview = "Sub Contracted with Allen for work with RWCD."
 designation = "Contractual Web Developer"
 start = "Mar. 2015"
 end = "Aug. 2015"
-
 responsibilities = [
-'Provided web development using Yii Framework.',
-'Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL.',
-'Designed and implemented a ETL import process for CSV files.',
-'Provided Proof Of Concepts on project designs.',
-'Fixed various bugs from previous developer.'
+    "Provided web development using Yii Framework.",
+    "Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL.",
+    "Designed and implemented a ETL import process for CSV files.",
+    "Provided Proof Of Concepts on project designs.",
+    "Fixed various bugs from previous developer."
 ]
 
 [[experiences]]
@@ -106,11 +116,10 @@ overview = "Contracts with Taversia for personal website."
 designation = "Contractual Web Developer"
 start = "Sept. 2013"
 end = "Jan. 2016"
-
 responsibilities = [
-"Programmed website based on client's needs.",
-'Developed home, gallery, credits pages, and more.',
-'Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL.'
+    "Programmed website based on client's needs.",
+    "Developed home, gallery, credits pages, and more.",
+    "Worked with HTML, CSS, JavaScript, JQUERY, PHP, and MySQL."
 ]
 
 [[experiences]]
@@ -123,12 +132,11 @@ overview = "The Clean Router allows parents to manage all of the devices in the 
 designation = "Freelance Web Developer"
 start = "Feb. 2014"
 end = "Dec. 2014"
-
 responsibilities = [
-'Developed user interface, back end functionality, and interaction for routers.',
-'Worked with HTML, CSS, JavaScript, JQUERY, JSON, and PHP.',
-'Worked with Linux based systems.',
-'Diagnosed, reported, and fixed errors and bugs.'
+    "Developed user interface, back end functionality, and interaction for routers.",
+    "Worked with HTML, CSS, JavaScript, JQUERY, JSON, and PHP.",
+    "Worked with Linux based systems.",
+    "Diagnosed, reported, and fixed errors and bugs."
 ]
 
 [[experiences]]
@@ -139,11 +147,10 @@ location = "Redwood City, California"
 overview = "Transformative Customer & Technical Support Solutions"
 [[experiences.positions]]
 designation = "Remote Service Technician"
-start = "Feb. 2014"
-end = "Sept. 2013"
-
+start = "Sept. 2013"
+end = "Feb. 2014"
 responsibilities = [
-'Supported customers with internet modems and routers.',
-'Provided support over phone and remote connection.',
-'Remote connection diagnostics on Windows OS and Mac OS machines.'
+    "Supported customers with internet modems and routers.",
+    "Provided support over phone and remote connection.",
+    "Remote connection diagnostics on Windows OS and Mac OS machines."
 ]

@@ -39,12 +39,12 @@ badge = "https://s3.amazonaws.com/accredible-api-badge/1521044380812.png"
 [[badges]]
 type = "soft-skill-indicator"
 name = "AWS"
-percentage = 75
+percentage = 90
 color = "orange"
 [[badges]]
 type = "soft-skill-indicator"
 name = "GCP"
-percentage = 70
+percentage = 60
 color = "orange"
 [[badges]]
 type = "soft-skill-indicator"
@@ -53,14 +53,39 @@ percentage = 100
 color = "blue"
 [[badges]]
 type = "soft-skill-indicator"
-name = "Packer"
-percentage = 75
+name = "Docker"
+percentage = 95
 color = "blue"
 [[badges]]
 type = "soft-skill-indicator"
 name = "Ansible"
-percentage = 60
+percentage = 85
 color = "blue"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Python"
+percentage = 85
+color = "yellow"
+[[badges]]
+type = "soft-skill-indicator"
+name = "CI/CD"
+percentage = 95
+color = "green"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Linux"
+percentage = 90
+color = "purple"
+[[badges]]
+type = "soft-skill-indicator"
+name = "DevOps"
+percentage = 95
+color = "red"
+[[badges]]
+type = "soft-skill-indicator"
+name = "Git"
+percentage = 90
+color = "gray"
 [[badges]]
 type = "soft-skill-indicator"
 name = "PHP"
@@ -73,11 +98,11 @@ percentage = 85
 color = "yellow"
 [[badges]]
 type = "soft-skill-indicator"
-name = "Python"
-percentage = 75
+name = "JavaScript"
+percentage = 55
 color = "yellow"
 [[badges]]
 type = "soft-skill-indicator"
-name = "Javascript"
-percentage = 55
-color = "yellow"
+name = "Packer"
+percentage = 75
+color = "blue"
