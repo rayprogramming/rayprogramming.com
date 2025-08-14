@@ -6,18 +6,158 @@ weight = 2
 showOnNavBar = true
 
 [[skills]]
+name = "Active Directory (AD)"
+summary = "Experience with Active Directory administration and management."
+
+[[skills]]
+name = "Agile Methodology"
+summary = "Experienced with Agile development practices and methodologies."
+
+[[skills]]
+name = "Amazon Web Services (AWS)"
+summary = "Extensive experience with AWS cloud services and infrastructure."
+
+[[skills]]
+name = "AWS Administration"
+summary = "Administration and management of AWS resources and services."
+
+[[skills]]
+name = "Bash Scripting"
+summary = "Proficient in writing bash scripts for automation and system administration."
+
+[[skills]]
+name = "Boomi AtomSphere"
+summary = "Experience with Boomi integration platform."
+
+[[skills]]
+name = "CI/CD"
+summary = "Design and implementation of continuous integration and deployment pipelines."
+
+[[skills]]
+name = "CircleCI"
+summary = "Experience with CircleCI for automated testing and deployment."
+
+[[skills]]
+name = "Cloud Network Architecture"
+summary = "Designing and implementing cloud network architectures."
+
+[[skills]]
+name = "Cloud Networking"
+summary = "Experience with cloud networking concepts and implementation."
+
+[[skills]]
+name = "Cost Optimization"
+summary = "Expertise in cloud cost optimization and resource management."
+
+[[skills]]
+name = "Cross-Functional Teamwork"
+summary = "Strong collaboration skills across different teams and departments."
+
+[[skills]]
+name = "DevOps"
+summary = "Comprehensive DevOps practices including automation, monitoring, and deployment."
+
+[[skills]]
 name = "Docker"
 logo = "/images/sections/skills/docker.svg"
-summary = "Write most of the programs as dockerized container."
+summary = "Containerization of applications and services using Docker."
 url = "https://www.docker.com/"
+
+[[skills]]
+name = "Freshdesk"
+summary = "Experience with Freshdesk customer support platform."
 
 [[skills]]
 name = "Git"
 logo = "/images/sections/skills/git.png"
-summary = "Experienced with git-based development. Mostly, use Bitbucket. Also, have experience in working with GitHub."
+summary = "Experienced with git-based development and version control systems."
 url = "https://git-scm.com/"
+
+[[skills]]
+name = "GitHub"
+summary = "Proficient with GitHub for code collaboration and project management."
+
+[[skills]]
+name = "GitHub Actions"
+summary = "Experience with GitHub Actions for CI/CD automation."
+
+[[skills]]
+name = "GitHub Copilot"
+summary = "Utilization of AI-powered coding assistance tools."
+
+[[skills]]
+name = "Git Operations"
+summary = "Advanced Git operations including branching, merging, and conflict resolution."
+
+[[skills]]
+name = "Google Cloud Platform"
+summary = "Experience with GCP services and cloud infrastructure."
+
+[[skills]]
+name = "Grafana"
+summary = "Monitoring and observability using Grafana dashboards."
+
+[[skills]]
+name = "Hashicorp Packer"
+summary = "Automated image building and management with Packer."
+
+[[skills]]
+name = "Incident Resolution"
+summary = "Experience in incident response and resolution processes."
+
+[[skills]]
+name = "Incident Response"
+summary = "Leading incident response processes and root cause analysis."
+
+[[skills]]
+name = "Infrastructure as a Service (IaaS)"
+summary = "Implementation and management of IaaS solutions."
+
+[[skills]]
+name = "Infrastructure Monitoring"
+summary = "Comprehensive infrastructure monitoring and alerting."
 
 [[skills]]
 name = "Linux"
 logo = "/images/sections/skills/linux.png"
 summary = "Using as the main operating system. Capable of writing bash/shell scripts."
+
+[[skills]]
+name = "Microsoft Windows"
+summary = "Administration and support of Windows-based systems."
+
+[[skills]]
+name = "Peer Mentoring"
+summary = "Mentoring junior engineers and team members."
+
+[[skills]]
+name = "Python (Programming Language)"
+summary = "Development and automation using Python."
+
+[[skills]]
+name = "Red Hat Ansible"
+summary = "Infrastructure automation and configuration management with Ansible."
+
+[[skills]]
+name = "Root Cause Analysis (RCA)"
+summary = "Conducting thorough root cause analysis for incidents and issues."
+
+[[skills]]
+name = "Scrum"
+summary = "Experience with Scrum methodology and practices."
+
+[[skills]]
+name = "Single Sign-On (SSO)"
+summary = "Implementation and management of SSO solutions."
+
+[[skills]]
+name = "Systems Reliability"
+summary = "Ensuring high availability and reliability of systems."
+
+[[skills]]
+name = "Tableau Server"
+summary = "Administration and management of Tableau Server."
+
+[[skills]]
+name = "Terraform"
+summary = "Infrastructure as Code using Terraform for cloud resource management."
